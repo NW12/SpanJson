@@ -1,8 +1,6 @@
-# SpanJson
-[![Build status](https://ci.appveyor.com/api/projects/status/h49loskhn09g03in/branch/master?svg=true)](https://ci.appveyor.com/project/Tornhoof/spanjson/branch/master)
-[![NuGet](https://img.shields.io/nuget/v/SpanJson.svg)](https://www.nuget.org/packages/SpanJson)
+# Jsonparsing 
+Nickwilson
 
-See https://github.com/Tornhoof/SpanJson/wiki/Performance for Benchmarks
 
 ## What is supported ##
 - Serialization and Deserialization into/from byte arrays, strings, TextWriter/TextReader and streams
@@ -182,11 +180,6 @@ public sealed class LongAsStringFormatter : ICustomJsonFormatter<long>
 }
 ```
 
-## ASP.NET Core 2.1 Formatter ##
-You can enable SpanJson as the default JSON formatter in ASP.NET Core 2.1 by using the Nuget package [SpanJson.AspNetCore.Formatter](https://www.nuget.org/packages/SpanJson.AspNetCore.Formatter).
-To enable it, add one of the following extension methods to the ``AddMvc()`` call in ``ConfigureServices``
-* AddSpanJson for a resolver with ASP.NET Core 2.1 defaults: IncludeNull, CamelCase, Integer Enums
-* AddSpanJsonCustom for a custom resolver (one of the default resolvers or custom)
 
 ```csharp
 // This method gets called by the runtime. Use this method to add services to the container.
