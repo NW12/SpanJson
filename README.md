@@ -1,8 +1,3 @@
-# SpanJson
-[![Build status](https://ci.appveyor.com/api/projects/status/h49loskhn09g03in/branch/master?svg=true)](https://ci.appveyor.com/project/Tornhoof/spanjson/branch/master)
-[![NuGet](https://img.shields.io/nuget/v/SpanJson.svg)](https://www.nuget.org/packages/SpanJson)
-
-See https://github.com/Tornhoof/SpanJson/wiki/Performance for Benchmarks
 
 ## What is supported ##
 - Serialization and Deserialization into/from byte arrays, strings, TextWriter/TextReader and streams
